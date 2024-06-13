@@ -72,7 +72,7 @@ body {
 }
 
 .button:hover {
-  background: var(--base-color-alt);
+  background-color: var(--base-color-alt);
 }
 
 .divider-1 {
@@ -661,3 +661,7 @@ footer .social a:hover {
   }
 }
 /* medium devices: 767 > */
+/* medium devices: 768 > */
+@media (min-width: 768px) {
+  /* Adicione estilos específicos para dispositivos médios aqui */
+}
