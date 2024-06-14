@@ -684,6 +684,79 @@ footer .social a:hover {
 }
 /* medium devices: 767 > */
 /* medium devices: 768 > */
-@media (min-width: 768px) {
-  /* Adicione estilos específicos para dispositivos médios aqui */
+/* Para dispositivos móveis: 767px e menores */
+@media (max-width: 767px) {
+  /* Ajuste o padding das seções */
+  .section {
+    padding: calc(2rem + var(--header-height)) 0;
+  }
+
+  /* Ajuste o container */
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* Ajuste o título */
+  .title {
+    font-size: 1.5rem;
+  }
+
+  /* Ajuste o subtítulo */
+  .section .subtitle {
+    font-size: 0.875rem;
+  }
+
+  /* Ajuste a navegação */
+  nav ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  nav ul li {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
+
+  nav .menu ul {
+    display: block;
+  }
+
+  /* Ajuste os cards de serviços */
+  .cards.grid {
+    grid-template-columns: 1fr;
+  }
+
+  .card {
+    padding: 2rem 1rem;
+  }
+
+  /* Ajuste o layout da seção de testemunhos */
+  #testimonials .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
+  /* Ajuste a seção de contato */
+  #contact .grid {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  #contact .text {
+    text-align: center;
+  }
+
+  /* Ajuste o footer */
+  footer .container {
+    grid-auto-flow: row;
+    text-align: center;
+  }
+  
+  /* Ajuste o botão voltar ao topo */
+  .back-to-top {
+    right: 0.5rem;
+    bottom: 0.5rem;
+    font-size: 1.25rem;
+  }
 }
